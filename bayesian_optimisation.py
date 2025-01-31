@@ -89,3 +89,5 @@ optimizer.maximize(
     init_points=2,
     n_iter=3,
 )
+
+print(optimizer.max)
