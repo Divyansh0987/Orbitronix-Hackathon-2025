@@ -89,6 +89,7 @@ def constraint_function(semi_major_axis, inclination, raan, arg_perigree):
         _leastDist = np.sqrt(np.abs(14 - lat)**2 + np.abs(80 - long)**2)
         if _leastDist < leastDist:
             leastDist = _leastDist
+    print(f"Latitude: {lat}, Longitude: {long}")
 
     return leastDist
 
